@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "timestamp": "2022-08-19T17:14:27+08:00",
+      "carpark_data": [
+        {
+          "carpark_info": [
+            {
+              "total_lots": "105",
+              "lot_type": "C",
+              "lots_available": "11"
+            }
+          ],
+          "carpark_number": "HE12",
+          "update_datetime": "2022-08-19T17:13:44"
+        },
+        {
+          "carpark_info": [
+            {
+              "total_lots": "583",
+              "lot_type": "C",
+              "lots_available": "160"
+            }
+          ],
+          "carpark_number": "HLM",
+          "update_datetime": "2022-08-19T17:13:36"
+        }
+      ]
+    }
+  ]
+}
