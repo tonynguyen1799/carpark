@@ -1,7 +1,7 @@
 
 # Car Park API
 
-This API is used to get nearest car parks which has available slots.
+This API is used to get nearest car parks which have available slots.
 
 The project is based on Java 11, Spring Boot 2.7.2 and MySQL 8.
 
