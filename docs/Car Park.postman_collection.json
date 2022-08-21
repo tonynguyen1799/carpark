@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "ccb73db0-3565-4d07-bc73-04b030ef2e0a",
+		"name": "Car Park",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Nearest Car Parks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/carparks/nearest?latitude=1.37326&longitude=103.897&page=1&per_page=3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"carparks",
+						"nearest"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "1.37326"
+						},
+						{
+							"key": "longitude",
+							"value": "103.897"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "per_page",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
