@@ -3,7 +3,7 @@
 
 This API is used to get nearest car parks which has available slots.
 
-The project is based on Spring Boot.
+The project is based on Java 11, Spring Boot 2.7.2 and MySQL 8.
 
 ### How to build
 
@@ -25,9 +25,7 @@ docker-compose up
 
 ### How to test
 
-The API is expose at port 8080
-
-Using Postman to play around API
+The API is expose at port 8080, you should use Postman to play around API
 
 Example http://localhost:8080/carparks/nearest?latitude=1.37326&longitude=103.897&page=1&per_page=3
 
