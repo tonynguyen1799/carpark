@@ -15,7 +15,7 @@ Using Maven wrapper to build the project.
 
 ### How to run
 
-Using docker-compose to bring MySQL as database, build the Docker image for project and running.
+Using Docker to containerize the API and docker-compose to running.
 
 ```
 docker-compose up
@@ -23,9 +23,15 @@ docker-compose up
 
 **Note** this step takes a while to complete at first time.
 
+To stop services
+
+```
+docker-compose down
+```
+
 ### How to test
 
-The API is expose at port 8080, you should use Postman to play around API
+The API is expose at port 8080, you can use Postman to all the cases.
 
 Example http://localhost:8080/carparks/nearest?latitude=1.37326&longitude=103.897&page=1&per_page=3
 
